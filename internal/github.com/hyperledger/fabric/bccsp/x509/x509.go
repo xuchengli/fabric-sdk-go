@@ -8,7 +8,7 @@ import (
 	"encoding/asn1"
 	"io"
 	"time"
-	gm "github.com/zhigui-projects/gm-crypto/x509"
+	gm "github.com/xuchengli/gm-crypto/x509"
 )
 
 type publicKeyInfo struct {

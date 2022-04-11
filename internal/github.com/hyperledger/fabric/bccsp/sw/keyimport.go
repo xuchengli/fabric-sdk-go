@@ -22,7 +22,7 @@ import (
 	"crypto/x509"
 	"errors"
 	"fmt"
-	"github.com/zhigui-projects/gm-plugins/primitive"
+	"github.com/xuchengli/gm-plugins/primitive"
 	"reflect"
 
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"

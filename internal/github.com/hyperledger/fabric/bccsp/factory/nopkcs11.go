@@ -23,7 +23,7 @@ import (
 	"strconv"
 
 	"github.com/pkg/errors"
-	gcx "github.com/zhigui-projects/gm-crypto/x509"
+	gcx "github.com/xuchengli/gm-crypto/x509"
 )
 
 // FactoryOpts holds configuration information used to initialize factory implementations

@@ -27,7 +27,7 @@ import (
 	metricsCfg "github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/metrics/cfg"
 	mspImpl "github.com/hyperledger/fabric-sdk-go/pkg/msp"
 	"github.com/pkg/errors"
-	gm_x509 "github.com/zhigui-projects/gm-crypto/x509"
+	gm_x509 "github.com/xuchengli/gm-crypto/x509"
 	"math/rand"
 	"time"
 )

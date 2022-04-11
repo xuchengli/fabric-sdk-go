@@ -21,7 +21,7 @@ import (
 
 	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
 
-	"github.com/zhigui-projects/gm-plugins/primitive"
+	"github.com/xuchengli/gm-plugins/primitive"
 )
 
 var logger = logging.NewLogger("fabsdk/core")

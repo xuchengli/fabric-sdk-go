@@ -19,7 +19,7 @@ import (
 
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
 	"github.com/pkg/errors"
-	gmx509 "github.com/zhigui-projects/gm-crypto/x509"
+	gmx509 "github.com/xuchengli/gm-crypto/x509"
 )
 
 var clientAuthTypes = map[string]tls.ClientAuthType{

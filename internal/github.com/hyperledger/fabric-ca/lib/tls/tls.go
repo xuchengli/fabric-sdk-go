@@ -33,8 +33,8 @@ import (
 	log "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
 	"github.com/pkg/errors"
-	gmtls "github.com/zhigui-projects/gm-crypto/tls"
-	gmx509 "github.com/zhigui-projects/gm-crypto/x509"
+	gmtls "github.com/xuchengli/gm-crypto/tls"
+	gmx509 "github.com/xuchengli/gm-crypto/x509"
 
 )
 

@@ -33,9 +33,9 @@ import (
 	gmX509 "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
 	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	gmtls "github.com/zhigui-projects/gm-crypto/tls"
-	gm_plugins "github.com/zhigui-projects/gm-plugins"
-	"github.com/zhigui-projects/gm-plugins/primitive"
+	gmtls "github.com/xuchengli/gm-crypto/tls"
+	gm_plugins "github.com/xuchengli/gm-plugins"
+	"github.com/xuchengli/gm-plugins/primitive"
 	"io/ioutil"
 	"strings"
 

@@ -29,7 +29,7 @@ import (
 	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
-	gmTls "github.com/zhigui-projects/gm-crypto/tls"
+	gmTls "github.com/xuchengli/gm-crypto/tls"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

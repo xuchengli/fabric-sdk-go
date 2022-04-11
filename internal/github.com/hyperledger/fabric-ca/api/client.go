@@ -11,7 +11,7 @@ Please review third_party pinning scripts and patches for more details.
 package api
 
 import (
-	gmx509 "github.com/zhigui-projects/gm-crypto/x509"
+	gmx509 "github.com/xuchengli/gm-crypto/x509"
 	"math/big"
 	"time"
 

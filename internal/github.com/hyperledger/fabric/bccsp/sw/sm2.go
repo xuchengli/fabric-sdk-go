@@ -17,8 +17,8 @@ package sw
 
 import (
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	gm_plugins "github.com/zhigui-projects/gm-plugins"
-	"github.com/zhigui-projects/gm-plugins/primitive"
+	gm_plugins "github.com/xuchengli/gm-plugins"
+	"github.com/xuchengli/gm-plugins/primitive"
 )
 
 var SmCrypto = gm_plugins.GetSmCryptoSuite()

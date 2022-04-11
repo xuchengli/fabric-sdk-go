@@ -39,8 +39,8 @@ import (
 	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
-	gm_http "github.com/zhigui-projects/http"
-	gm_x509 "github.com/zhigui-projects/gm-crypto/x509"
+	gm_http "github.com/xuchengli/http"
+	gm_x509 "github.com/xuchengli/gm-crypto/x509"
 
 )
 
