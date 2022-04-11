@@ -9,12 +9,12 @@ package e2e
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/xuchengli/fabric-sdk-go/pkg/client/channel"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/fabsdk"
+	"github.com/xuchengli/fabric-sdk-go/test/integration"
 )
 
 // runWithNoOrdererConfig enables chclient scenarios using config and client options provided

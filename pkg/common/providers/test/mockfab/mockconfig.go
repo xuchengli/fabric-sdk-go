@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
 )
 

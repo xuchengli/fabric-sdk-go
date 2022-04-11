@@ -17,7 +17,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
 )
 
 var goodCert = &x509.Certificate{

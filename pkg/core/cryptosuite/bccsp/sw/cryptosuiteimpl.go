@@ -7,12 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package sw
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/sw"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/wrapper"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/factory"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/sw"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/logging"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite/bccsp/wrapper"
 	"github.com/pkg/errors"
 )
 

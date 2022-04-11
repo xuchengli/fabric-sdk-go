@@ -12,10 +12,10 @@ import (
 	"time"
 
 	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/logging"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
 )
 

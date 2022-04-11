@@ -12,14 +12,14 @@ import (
 	"crypto/rsa"
 	"crypto/tls"
 	"encoding/pem"
-	gmX509 "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
+	gmX509 "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
 	"io"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/logging"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/pkg/errors"
 
-	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
+	factory "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
 
 	"github.com/xuchengli/gm-plugins/primitive"
 )

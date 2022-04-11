@@ -12,9 +12,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/msp"
 )
 
 // IdentityManager implements fab/IdentityManager

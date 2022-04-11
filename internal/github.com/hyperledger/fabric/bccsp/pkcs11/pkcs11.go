@@ -17,7 +17,7 @@ import (
 	"encoding/asn1"
 	"encoding/hex"
 	"fmt"
-	logging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	logging "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 	"github.com/miekg/pkcs11"
 	"math/big"
 	"sync"

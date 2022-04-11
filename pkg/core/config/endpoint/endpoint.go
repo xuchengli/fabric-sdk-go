@@ -8,7 +8,7 @@ package endpoint
 
 import (
 	"crypto/x509"
-	gmX509 "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
+	gmX509 "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
 	"encoding/pem"
 	"io/ioutil"
 	"strings"

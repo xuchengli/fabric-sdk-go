@@ -14,14 +14,14 @@ import (
 	"encoding/hex"
 	"net/http"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
 
-	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
-	log "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
+	factory "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
+	log "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/api"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/api"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
 	"github.com/pkg/errors"
 )
 

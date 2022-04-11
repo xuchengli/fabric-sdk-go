@@ -9,10 +9,10 @@ package comm
 import (
 	"crypto/tls"
 	"crypto/x509"
-	config2 "github.com/hyperledger/fabric-sdk-go/pkg/core/config"
+	config2 "github.com/xuchengli/fabric-sdk-go/pkg/core/config"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite"
 	"github.com/pkg/errors"
 )
 

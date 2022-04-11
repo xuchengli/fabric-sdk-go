@@ -9,24 +9,24 @@ package fab
 import (
 	"crypto/tls"
 	"crypto/x509"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/config"
 	"reflect"
 	"regexp"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/multi"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	commtls "github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm/tls"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/cryptoutil"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/errors/multi"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/logging"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
+	commtls "github.com/xuchengli/fabric-sdk-go/pkg/core/config/comm/tls"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/config/cryptoutil"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/config/lookup"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/xuchengli/fabric-sdk-go/pkg/util/pathvar"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 	gmTls "github.com/xuchengli/gm-crypto/tls"
@@ -1832,7 +1832,7 @@ func detectDeprecatedNetworkConfig(endpointConfig *EndpointConfig) {
 	for _, v := range endpointConfig.networkConfig.Channels {
 		if len(v.Orderers) > 0 {
 			logger.Warn("Getting orderers from endpoint config channels.orderer is deprecated, use entity matchers to override orderer configuration")
-			logger.Warn("visit https://github.com/hyperledger/fabric-sdk-go/blob/master/test/fixtures/config/overrides/local_entity_matchers.yaml for samples")
+			logger.Warn("visit https://github.com/xuchengli/fabric-sdk-go/blob/master/test/fixtures/config/overrides/local_entity_matchers.yaml for samples")
 			break
 		}
 	}

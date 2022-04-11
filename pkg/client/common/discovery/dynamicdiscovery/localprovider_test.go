@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	clientmocks "github.com/hyperledger/fabric-sdk-go/pkg/client/common/mocks"
-	contextAPI "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	pfab "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	discmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/discovery/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	clientmocks "github.com/xuchengli/fabric-sdk-go/pkg/client/common/mocks"
+	contextAPI "github.com/xuchengli/fabric-sdk-go/pkg/common/providers/context"
+	pfab "github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
+	discmocks "github.com/xuchengli/fabric-sdk-go/pkg/fab/discovery/mocks"
+	"github.com/xuchengli/fabric-sdk-go/pkg/fab/mocks"
+	mspmocks "github.com/xuchengli/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
 )
 

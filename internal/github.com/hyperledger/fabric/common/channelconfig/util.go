@@ -21,9 +21,9 @@ import (
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
 	"github.com/hyperledger/fabric-protos-go/orderer/etcdraft"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/protoutil"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/pkg/errors"
 )
 

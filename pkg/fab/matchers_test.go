@@ -11,12 +11,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/xuchengli/fabric-sdk-go/test/metadata"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/config"
 )
 
 const (

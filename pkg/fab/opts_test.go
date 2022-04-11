@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
 )
 
 var (

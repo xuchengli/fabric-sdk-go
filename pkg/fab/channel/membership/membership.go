@@ -9,17 +9,17 @@ package membership
 import (
 	"crypto/x509"
 	"encoding/pem"
-	gmX509 "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
+	gmX509 "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
 
 	"strings"
 
 	"github.com/golang/protobuf/proto"
 	mb "github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/verifier"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
+	"github.com/xuchengli/fabric-sdk-go/pkg/client/common/verifier"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/logging"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
 )
 

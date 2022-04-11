@@ -17,9 +17,9 @@ import (
 	"github.com/miekg/pkcs11"
 	"os"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/sw"
-	flogging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/sw"
+	flogging "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 	"github.com/pkg/errors"
 )
 

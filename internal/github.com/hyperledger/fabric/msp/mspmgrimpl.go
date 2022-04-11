@@ -23,7 +23,7 @@ package msp
 import (
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/msp"
-	flogging "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	flogging "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 	"github.com/pkg/errors"
 )
 

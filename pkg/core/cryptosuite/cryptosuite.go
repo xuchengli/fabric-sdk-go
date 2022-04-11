@@ -7,17 +7,17 @@ SPDX-License-Identifier: Apache-2.0
 package cryptosuite
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/gm"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite/bccsp/gm"
 	"sync/atomic"
 
 	"errors"
 
 	"sync"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/logging"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
 )
 
 var logger = logging.NewLogger("fabsdk/core")

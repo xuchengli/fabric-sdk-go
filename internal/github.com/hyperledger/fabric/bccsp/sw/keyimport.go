@@ -25,8 +25,8 @@ import (
 	"github.com/xuchengli/gm-plugins/primitive"
 	"reflect"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
 )
 
 type aes256ImportKeyOptsKeyImporter struct{}

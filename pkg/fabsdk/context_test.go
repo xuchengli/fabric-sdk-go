@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/config"
+	"github.com/xuchengli/fabric-sdk-go/test/metadata"
 )
 
 const (

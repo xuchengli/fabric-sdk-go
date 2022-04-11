@@ -7,17 +7,17 @@ SPDX-License-Identifier: Apache-2.0
 package defcore
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/logging"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/logging/api"
 
-	cryptosuiteimpl "github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
-	cryptosuiteimplGM "github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/gm"
-	signingMgr "github.com/hyperledger/fabric-sdk-go/pkg/fab/signingmgr"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/fabpvdr"
+	cryptosuiteimpl "github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
+	cryptosuiteimplGM "github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite/bccsp/gm"
+	signingMgr "github.com/xuchengli/fabric-sdk-go/pkg/fab/signingmgr"
+	"github.com/xuchengli/fabric-sdk-go/pkg/fabsdk/provider/fabpvdr"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/modlog"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/logging/modlog"
 )
 
 var logger = logging.NewLogger("fabsdk")

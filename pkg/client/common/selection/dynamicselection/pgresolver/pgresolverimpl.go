@@ -13,8 +13,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	common "github.com/hyperledger/fabric-protos-go/common"
 	mb "github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/logging"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
 )
 

@@ -9,8 +9,8 @@ package comm
 import (
 	"context"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	fabmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
+	fabmocks "github.com/xuchengli/fabric-sdk-go/pkg/fab/mocks"
 	"google.golang.org/grpc"
 )
 

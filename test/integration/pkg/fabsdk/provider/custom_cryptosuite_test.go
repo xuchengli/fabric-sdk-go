@@ -11,16 +11,16 @@ import (
 
 	"fmt"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	bccspSw "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/factory/sw"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/wrapper"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defcore"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	bccspSw "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/factory/sw"
+	"github.com/xuchengli/fabric-sdk-go/pkg/client/channel"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite/bccsp/wrapper"
+	"github.com/xuchengli/fabric-sdk-go/pkg/fabsdk"
+	"github.com/xuchengli/fabric-sdk-go/pkg/fabsdk/factory/defcore"
+	"github.com/xuchengli/fabric-sdk-go/test/integration"
 	"github.com/stretchr/testify/require"
 )
 

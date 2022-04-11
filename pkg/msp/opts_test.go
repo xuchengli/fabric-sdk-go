@@ -9,8 +9,8 @@ package msp
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	logApi "github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/msp"
+	logApi "github.com/xuchengli/fabric-sdk-go/pkg/core/logging/api"
 	"github.com/stretchr/testify/require"
 )
 

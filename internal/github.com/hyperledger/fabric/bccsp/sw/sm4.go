@@ -19,7 +19,7 @@ import (
 	"bytes"
 	"crypto/cipher"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 )
 
 func SM4Encrypt(key, src []byte) ([]byte, error) {

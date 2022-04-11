@@ -9,8 +9,8 @@ package cryptoutil
 import (
 	"testing"
 
-	fabricCaUtil "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
+	fabricCaUtil "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite"
 )
 
 func TestGetPrivateKeyFromCert(t *testing.T) {

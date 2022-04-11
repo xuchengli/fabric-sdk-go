@@ -16,7 +16,7 @@ limitations under the License.
 package sw
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	gm_plugins "github.com/xuchengli/gm-plugins"
 	"github.com/xuchengli/gm-plugins/primitive"
 )

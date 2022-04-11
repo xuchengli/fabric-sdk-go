@@ -15,14 +15,14 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	"github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	sdkCtx "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/resource"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/cauthdsl"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
+	sdkCtx "github.com/xuchengli/fabric-sdk-go/pkg/context"
+	"github.com/xuchengli/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/xuchengli/fabric-sdk-go/pkg/fab/resource"
+	mspmocks "github.com/xuchengli/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/xuchengli/fabric-sdk-go/test/metadata"
 )
 
 func Example() {

@@ -18,7 +18,7 @@ package sw
 import (
 	"crypto/elliptic"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	"github.com/pkg/errors"
 	"github.com/xuchengli/gm-plugins/primitive"
 )

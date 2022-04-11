@@ -22,7 +22,7 @@ package utils
 
 import (
 "crypto/x509"
-x "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
+x "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
 )
 
 // DERToX509Certificate converts der to x509

@@ -12,10 +12,10 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/metrics"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/options"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/xuchengli/fabric-sdk-go/pkg/fabsdk/metrics"
 	"google.golang.org/grpc"
 )
 

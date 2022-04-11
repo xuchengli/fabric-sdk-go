@@ -28,15 +28,15 @@ import (
 	"encoding/json"
 	"encoding/pem"
 	"fmt"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 	gmx509 "github.com/xuchengli/gm-crypto/x509"
 	"github.com/xuchengli/gm-plugins/primitive"
 	"io/ioutil"
 	"math/big"
 	mrand "math/rand"
 
-	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	factory "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
 
 	"net/http"
 	"os"

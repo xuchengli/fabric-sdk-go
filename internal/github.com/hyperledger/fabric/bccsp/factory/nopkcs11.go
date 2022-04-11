@@ -18,7 +18,7 @@ limitations under the License.
 package factory
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 
 	"strconv"
 

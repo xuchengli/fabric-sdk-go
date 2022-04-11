@@ -13,17 +13,17 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	providersFab "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/api"
-	apimocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmspapi"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	providersFab "github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/config"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
+	"github.com/xuchengli/fabric-sdk-go/pkg/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/msp/api"
+	apimocks "github.com/xuchengli/fabric-sdk-go/pkg/msp/test/mockmspapi"
+	"github.com/xuchengli/fabric-sdk-go/test/metadata"
 )
 
 var (

@@ -29,10 +29,10 @@ import (
 	"encoding/hex"
 	"encoding/pem"
 	"fmt"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	gmX509 "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	gmX509 "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/config"
 	gmtls "github.com/xuchengli/gm-crypto/tls"
 	gm_plugins "github.com/xuchengli/gm-plugins"
 	"github.com/xuchengli/gm-plugins/primitive"
@@ -41,8 +41,8 @@ import (
 
 	"github.com/cloudflare/cfssl/csr"
 	"github.com/cloudflare/cfssl/helpers"
-	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
-	log "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
+	factory "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
+	log "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 	"github.com/pkg/errors"
 )
 

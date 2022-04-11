@@ -9,9 +9,9 @@ package mocks
 import (
 	reqContext "context"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/options"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
 )
 
 // MockChannelProvider holds a mock channel provider.

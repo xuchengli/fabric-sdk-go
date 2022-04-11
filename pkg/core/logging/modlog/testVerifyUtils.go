@@ -12,8 +12,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/metadata"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/logging/api"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/logging/metadata"
 	"github.com/stretchr/testify/assert"
 )
 

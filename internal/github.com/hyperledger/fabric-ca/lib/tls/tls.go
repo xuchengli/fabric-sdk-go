@@ -27,11 +27,11 @@ import (
 
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
 
-	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
-	log "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
+	factory "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
+	log "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
 	"github.com/pkg/errors"
 	gmtls "github.com/xuchengli/gm-crypto/tls"
 	gmx509 "github.com/xuchengli/gm-crypto/x509"

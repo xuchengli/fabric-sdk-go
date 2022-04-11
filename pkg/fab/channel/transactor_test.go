@@ -11,19 +11,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/xuchengli/fabric-sdk-go/test/metadata"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	mocksConfig "github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/txn"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/context"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/config"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/config/lookup"
+	mocksConfig "github.com/xuchengli/fabric-sdk-go/pkg/core/mocks"
+	fabImpl "github.com/xuchengli/fabric-sdk-go/pkg/fab"
+	"github.com/xuchengli/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/xuchengli/fabric-sdk-go/pkg/fab/txn"
+	mspmocks "github.com/xuchengli/fabric-sdk-go/pkg/msp/test/mockmsp"
 )
 
 func TestCreateTxnID(t *testing.T) {

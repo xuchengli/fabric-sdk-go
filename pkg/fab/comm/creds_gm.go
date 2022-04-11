@@ -9,8 +9,8 @@ package comm
 import (
 	"crypto/tls"
 	//"github.com/hyperledger/fabric/common/flogging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
+	"github.com/xuchengli/fabric-sdk-go/pkg/common/logging"
+	"github.com/xuchengli/fabric-sdk-go/pkg/core/config"
 	gcs "github.com/xuchengli/gm-crypto/tls"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/credentials"

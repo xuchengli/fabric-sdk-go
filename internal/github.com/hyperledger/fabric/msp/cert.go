@@ -28,11 +28,11 @@ import (
 	"encoding/asn1"
 	"encoding/pem"
 	"fmt"
-	gmX509 "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
+	gmX509 "github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/x509"
 	"math/big"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/xuchengli/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/utils"
 	"github.com/pkg/errors"
 )
 
