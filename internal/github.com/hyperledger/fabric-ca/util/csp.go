@@ -48,7 +48,7 @@ import (
 
 // getBCCSPKeyOpts generates a key as specified in the request.
 // This supports ECDSA and RSA.
-func getBCCSPKeyOpts(kr *csr.KeyRequest, ephemeral bool) (opts core.KeyGenOpts, err error) {
+func getBCCSPKeyOpts(kr csr.KeyRequest, ephemeral bool) (opts core.KeyGenOpts, err error) {
 	if kr == nil {
 		return factory.GetECDSAKeyGenOpts(ephemeral), nil
 	}
@@ -136,7 +136,7 @@ func GetSignerFromCertFile(certFile string, csp core.CryptoSuite) (core.Key, cry
 // somewhat mirroring to cfssl/req.KeyRequest.Generate()
 func BCCSPKeyRequestGenerate(req *csr.CertificateRequest, myCSP core.CryptoSuite) (core.Key, crypto.Signer, error) {
 	log.Infof("generating key: %+v", req.KeyRequest)
-	keyOpts, err := getBCCSPKeyOpts(req.KeyRequest, false)
+	keyOpts, err := getBCCSPKeyOpts(*req.KeyRequest, false)
 	if err != nil {
 		return nil, nil, err
 	}
