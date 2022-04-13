@@ -118,10 +118,14 @@ github.com/sykesm/zap-logfmt v0.0.4 h1:U2WzRvmIWG1wDLCFY3sz8UeEmsdHQjHFNlIdmroVF
 github.com/sykesm/zap-logfmt v0.0.4/go.mod h1:AuBd9xQjAe3URrWT1BBDk2v2onAZHkZkWRMiYZXiZWA=
 github.com/xuchengli/gm-crypto v0.0.0-20220408103036-316db6bcf11a h1:AfJJlXcL2YPvQUzunNpadj6kw8eZ5nI83kIVMxI/iV4=
 github.com/xuchengli/gm-crypto v0.0.0-20220408103036-316db6bcf11a/go.mod h1:Sv3l6yLffdduH0+24bkYcCrO2cP/tXOnUxzyWzpFexo=
+github.com/xuchengli/gm-crypto v0.0.1 h1:NRZffkY9rFii4T3YkezbSq6+fyKbYKuSoULjdza7AkE=
+github.com/xuchengli/gm-crypto v0.0.1/go.mod h1:Sv3l6yLffdduH0+24bkYcCrO2cP/tXOnUxzyWzpFexo=
 github.com/xuchengli/gm-plugins v0.0.0-20220408102215-54f855ff7927 h1:BMVB8qhno9rtCr3pum8hHJ3d0GMy6CtW3xORQA6gZvw=
 github.com/xuchengli/gm-plugins v0.0.0-20220408102215-54f855ff7927/go.mod h1:kPNJSii0KTOAklmKS8PhRs4wFiHHYpvrM+EieZ/fYC4=
-github.com/xuchengli/http v0.0.0-20220408140247-23e0c75ec4b4 h1:01JMFpq551O4lZ9MUVg22UYcafXIEBwNWrWRSXBgeJU=
-github.com/xuchengli/http v0.0.0-20220408140247-23e0c75ec4b4/go.mod h1:wb7xRaztG6/m/fKQRKXdlo121ciy6DY7gHN+WHDzNvs=
+github.com/xuchengli/gm-plugins v0.0.1 h1:AEjoa6RIt+oD0W3BJNEubLaHXXOJrlCPZ2kCV/Jn9zs=
+github.com/xuchengli/gm-plugins v0.0.1/go.mod h1:kPNJSii0KTOAklmKS8PhRs4wFiHHYpvrM+EieZ/fYC4=
+github.com/xuchengli/http v0.0.2 h1:vs+3j+CwSbhPS3OqUeDN+GSsyHKco/FVMCta/dAqynA=
+github.com/xuchengli/http v0.0.2/go.mod h1:O6iCdGOUanwMxRL3ShaIYY0sO5x+n0XtAQDLFV/0fSM=
 github.com/yuin/goldmark v1.3.5/go.mod h1:mwnBkeHKe2W/ZEtQ+71ViKU8L12m81fl3OWwC1Zlc8k=
 github.com/zhigui-projects/gm-go v0.0.0-20200510034956-8e4ef670d055 h1:SpG238mmCez9TdHDu0Qba+ol57R+/pUxvJsDXT22Fug=
 github.com/zhigui-projects/gm-go v0.0.0-20200510034956-8e4ef670d055/go.mod h1:CiDImH0b0JKWrAXdXqw9cBrz31oDVUBWdthDYs7dpkI=

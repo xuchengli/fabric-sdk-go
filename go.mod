@@ -35,9 +35,9 @@ require (
 	github.com/spf13/viper v1.0.2
 	github.com/stretchr/testify v1.7.0
 	github.com/sykesm/zap-logfmt v0.0.4 // indirect
-	github.com/xuchengli/gm-crypto v0.0.0-20220408103036-316db6bcf11a
-	github.com/xuchengli/gm-plugins v0.0.0-20220408102215-54f855ff7927
-	github.com/xuchengli/http v0.0.0-20220408140247-23e0c75ec4b4
+	github.com/xuchengli/gm-crypto v0.0.1
+	github.com/xuchengli/gm-plugins v0.0.1
+	github.com/xuchengli/http v0.0.2
 	go.uber.org/zap v1.21.0
 	golang.org/x/crypto v0.0.0-20220331220935-ae2d96664a29
 	golang.org/x/net v0.0.0-20220407224826-aac1ed45d8e3
