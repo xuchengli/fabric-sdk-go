@@ -28,7 +28,7 @@ require (
 	github.com/sykesm/zap-logfmt v0.0.4 // indirect
 	github.com/xuchengli/gm-crypto v0.0.1
 	github.com/xuchengli/gm-plugins v0.0.1
-	github.com/xuchengli/http v0.0.2
+	github.com/xuchengli/http v0.0.3
 	go.uber.org/zap v1.21.0
 	golang.org/x/crypto v0.0.0-20220331220935-ae2d96664a29
 	golang.org/x/net v0.0.0-20220407224826-aac1ed45d8e3
